@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Applet and JavaScript Example</title>
+    <script type="text/javascript">
+      function JavaScriptCallback(data) {
+        // Display the data received from the applet
+        document.getElementById("dataDisplay").innerText = data;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Distributed Application</h1>
+    <applet code="DataApplet.class" width="300" height="200">
+      Your browser does not support Java Applets.
+    </applet>
+    <div id="dataDisplay">Waiting for data...</div>
+  </body>
+</html>

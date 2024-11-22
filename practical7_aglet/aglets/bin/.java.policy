@@ -1,0 +1,6 @@
+
+// Entry granting permissions to aglets code.
+grant codeBase "file:/home/mohit/aglets/lib/-" {
+    permission java.security.AllPermission;
+};
+    
